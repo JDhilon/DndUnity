@@ -1,62 +1,61 @@
-﻿
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SlideAnimation : MonoBehaviour
+public class swipeMenu : MonoBehaviour
 {
-    public GameObject scrollBar;
-    float scrollPosition = 0;
-    float[] position;
-
+    public GameObject scrollbar;
+    private float scroll_pos = 0;
+    float[] pos;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        position = new float[transform.childCount];
-        float distance = 1f / (position.Length - 1f);
-
-        for (int i=0; i < position.Length; i++)
+        pos = new float[transform.childCount];
+        float distance = 1f / (pos.Length - 1f);
+        for (int i = 0; i < pos.Length; i++)
         {
-            position[i] = distance * i;
+            pos[i] = distance * i;
         }
 
         if (Input.GetMouseButton(0))
         {
-            scrollPosition = scrollBar.GetComponent<Scrollbar> ().value;
+            scroll_pos = scrollbar.GetComponent<Scrollbar>().value;
         }
         else
         {
-            for(int i=0; i< position.Length; i++)
+            for (int i = 0; i < pos.Length; i++)
             {
-                if (scrollPosition < position[i] + (distance / 2) && scrollPosition > position[i] - (distance / 2))
+                if (scroll_pos < pos[i] + (distance / 2) && scroll_pos > pos[i] - (distance / 2))
                 {
-                    scrollBar.GetComponent<Scrollbar> ().value = Mathf.Lerp(scrollBar.GetComponent<Scrollbar> ().value, position[i], 0.1f);
+                    scrollbar.GetComponent<Scrollbar>().value = Mathf.Lerp(scrollbar.GetComponent<Scrollbar>().value, pos[i], 0.1f);
                 }
             }
         }
 
 
-        for(int i=0; i < position.Length; i++)
+        for (int i = 0; i < pos.Length; i++)
         {
-            if(scrollPosition < position[i] + (distance/2) && scrollPosition > position[i] - (distance / 2))
+            if (scroll_pos < pos[i] + (distance / 2) && scroll_pos > pos[i] - (distance / 2))
             {
-                transform.GetChild(i).localScale = Vector2.Lerp(transform.GetChild(i).localScale, new Vector2(1f, 1f), 0.1f);
-                for (int j = 0; j < position.Length; j++)     
+                Debug.LogWarning("Current Selected Level" + i);
+                transform.GetChild(i).localScale = Vector2.Lerp(transform.GetChild(i).localScale, new Vector2(1.2f, 1.2f), 0.1f);
+                for (int j = 0; j < pos.Length; j++)
                 {
-                    if(j != i)
+                    if (j != i)
                     {
                         transform.GetChild(j).localScale = Vector2.Lerp(transform.GetChild(j).localScale, new Vector2(0.8f, 0.8f), 0.1f);
                     }
                 }
             }
         }
+
     }
 }
