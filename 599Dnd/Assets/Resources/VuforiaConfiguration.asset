@@ -9,20 +9,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Script: {fileID: -2067402452, guid: 4bc5fd733b147194692297d23f623541, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: 
-    ufoLicenseKey: QVNlZEcxZi8vLy8vQUFBQUtFcEcwRldzZlVMRGxvR1dKZkZ1Q1Z5Qm90bDNqV21hOTFGbDJlYmdYZVFWOTlLU0JtSFU5NVhmSEFqZ2lsd014ckRPcFdrUVZ4T3N1RXh6N25YR3pUelh3Mmxhc3k0YnBqSWg2RVlYdEM3K25Da0s5bEhmdkZIQ1ZyNGtxMG9kaVgrb2ZYSzFNRjZic1BqanFDbXNyR1ZaR1JLMm9uMEYybDFiTWMweVRzWUF4RVp5ZmVtUCs3RmJnWUxTYU9WdURaRTdma0plY3hCbS9WbEJyMkZDSE5aRTlWR2FFTjUrNy9xMkNra0lvSHNPTnRST0VNMUlhcEhidlkvREtVcXhENkJWdXJsWVY3cExFMjc0Z09ZLzFIUUtUb3lUVzh0UFIyUXV6aVd5a0dqenhlWVpQU1NrVXVYY0VKNVQraVBXRHhXb2hrRTdHWnN2SVdUbzB3cHU3TENMZG5EMExCQk1Sa0tIcFdKUmEyNXE=
+    ufoLicenseKey: QWFxYWN6My8vLy8vQUFBQUtLOGVDK0s1aVVPWHVMK1ZmemJaWThSQ0RXQ2JFdkpMZDJaSkF1OXNwM2xRcjFPM2NBeDhKSDBsYXpWNC80ZlJLNjdVNnZvVnprTFU4aFlIWm9oeXAxUURCTlZKWWZ5cFRGNzdLSU1QV1N0MkNNaHJlOFFROGt4VnNPNWtsS1d2MnpCVmNaZ1hySnJab3dQbXl2bC9qL2MrMEpXS1BSS1AxUE9WTWpVR1NGR041cTI1em9lcVRnQU5IVDc3SndMaW5lQUJzNDN2eVo4eXpEU3ZZTDBJRG11WkdvaUh3L3oyYTBGWGxkU3NPQkJBZ204SGQ0SFFqV2M5VEpuNFdidCtnNjBXTG1RRzJjNk5NZHIwSDZDZUR3MWlKeDZEaWdyYUFPbzZEUGR6bk5QMmMzUlJDSkovUnBVRHZYL1JRVkkxNDVhcGZndFhibkIxaHdVQkh2WDJoR0ZzL1J6WHpTRFZHMWY4T1FzRUFEQnQ=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
-    version: 8.5.9
-    eulaAcceptedVersions: '{"Values":["8.5"]}'
+    version: 8.6.10
+    eulaAcceptedVersions: '{"Values":["8.6"]}'
+    modelTargetMode: 0
   database:
     disableModelExtraction: 0
   videoBackground:
