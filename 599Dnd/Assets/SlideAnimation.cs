@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class swipeMenu : MonoBehaviour
+public class SlideAnimation : MonoBehaviour
 {
     public GameObject scrollbar;
     private float scroll_pos = 0;
