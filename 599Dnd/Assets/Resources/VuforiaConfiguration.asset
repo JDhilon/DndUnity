@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: AbPvoqn/////AAABmVEWd5kWpEFrrrJ9RbUUc/YHKxbVUc5EAgPA0+unxmwjSCLhnhuopquhvuA4tJGnK1rIJBP35EtgqELv0NN5XRrAkpS/fFyfjxxvJvLmQnyqyaRtu4ZtVpyytsb6+7Yh76cjmRCz4daxJqPi2geZ7HOYjIxfhBtJ2UKRhQqwnRGJ+rwn0F5rfutsBaV5+UDpJePZZDGNSnmAmAxDUNmvaJznLnnmm3tmuny7bvwi4wHRxX7NoI300Ofbo/plt1067Aq57QtlkfTKlmqpMh/CQrreGz/QPPllt3HElSdrl1o1lUE8j20tBDw7B2GMjvaXRmf0ynkhKqQhcVsPml3kV+Lck19SMLP+WOVjgwwtUrwN
     ufoLicenseKey: QWFxYWN6My8vLy8vQUFBQUtLOGVDK0s1aVVPWHVMK1ZmemJaWThSQ0RXQ2JFdkpMZDJaSkF1OXNwM2xRcjFPM2NBeDhKSDBsYXpWNC80ZlJLNjdVNnZvVnprTFU4aFlIWm9oeXAxUURCTlZKWWZ5cFRGNzdLSU1QV1N0MkNNaHJlOFFROGt4VnNPNWtsS1d2MnpCVmNaZ1hySnJab3dQbXl2bC9qL2MrMEpXS1BSS1AxUE9WTWpVR1NGR041cTI1em9lcVRnQU5IVDc3SndMaW5lQUJzNDN2eVo4eXpEU3ZZTDBJRG11WkdvaUh3L3oyYTBGWGxkU3NPQkJBZ204SGQ0SFFqV2M5VEpuNFdidCtnNjBXTG1RRzJjNk5NZHIwSDZDZUR3MWlKeDZEaWdyYUFPbzZEUGR6bk5QMmMzUlJDSkovUnBVRHZYL1JRVkkxNDVhcGZndFhibkIxaHdVQkh2WDJoR0ZzL1J6WHpTRFZHMWY4T1FzRUFEQnQ=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
@@ -40,6 +40,6 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: Logitech HD Webcam C615
     turnOffWebCam: 0
     renderTextureLayer: 30
