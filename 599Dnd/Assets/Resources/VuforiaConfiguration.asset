@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067402452, guid: 4bc5fd733b147194692297d23f623541, type: 3}
+  m_Name: VuforiaConfiguration
+  m_EditorClassIdentifier: 
+  vuforia:
+    vuforiaLicenseKey: AbPvoqn/////AAABmVEWd5kWpEFrrrJ9RbUUc/YHKxbVUc5EAgPA0+unxmwjSCLhnhuopquhvuA4tJGnK1rIJBP35EtgqELv0NN5XRrAkpS/fFyfjxxvJvLmQnyqyaRtu4ZtVpyytsb6+7Yh76cjmRCz4daxJqPi2geZ7HOYjIxfhBtJ2UKRhQqwnRGJ+rwn0F5rfutsBaV5+UDpJePZZDGNSnmAmAxDUNmvaJznLnnmm3tmuny7bvwi4wHRxX7NoI300Ofbo/plt1067Aq57QtlkfTKlmqpMh/CQrreGz/QPPllt3HElSdrl1o1lUE8j20tBDw7B2GMjvaXRmf0ynkhKqQhcVsPml3kV+Lck19SMLP+WOVjgwwtUrwN
+    ufoLicenseKey: QWFxYWN6My8vLy8vQUFBQUtLOGVDK0s1aVVPWHVMK1ZmemJaWThSQ0RXQ2JFdkpMZDJaSkF1OXNwM2xRcjFPM2NBeDhKSDBsYXpWNC80ZlJLNjdVNnZvVnprTFU4aFlIWm9oeXAxUURCTlZKWWZ5cFRGNzdLSU1QV1N0MkNNaHJlOFFROGt4VnNPNWtsS1d2MnpCVmNaZ1hySnJab3dQbXl2bC9qL2MrMEpXS1BSS1AxUE9WTWpVR1NGR041cTI1em9lcVRnQU5IVDc3SndMaW5lQUJzNDN2eVo4eXpEU3ZZTDBJRG11WkdvaUh3L3oyYTBGWGxkU3NPQkJBZ204SGQ0SFFqV2M5VEpuNFdidCtnNjBXTG1RRzJjNk5NZHIwSDZDZUR3MWlKeDZEaWdyYUFPbzZEUGR6bk5QMmMzUlJDSkovUnBVRHZYL1JRVkkxNDVhcGZndFhibkIxaHdVQkh2WDJoR0ZzL1J6WHpTRFZHMWY4T1FzRUFEQnQ=
+    delayedInitialization: 0
+    cameraDeviceModeSetting: -1
+    maxSimultaneousImageTargets: 1
+    maxSimultaneousObjectTargets: 1
+    useDelayedLoadingObjectTargets: 0
+    modelTargetRecoWhileExtendedTracked: 1
+    version: 8.6.10
+    eulaAcceptedVersions: '{"Values":["8.6"]}'
+    modelTargetMode: 0
+  database:
+    disableModelExtraction: 0
+  videoBackground:
+    numDivisions: 2
+    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
+      type: 3}
+    videoBackgroundEnabled: 1
+  deviceTracker:
+    autoInitTracker: 0
+    autoStartTracker: 0
+    arcoreRequirement: 0
+    autoImportArcore: 0
+  smartTerrain:
+    autoInitTracker: 0
+    autoStartTracker: 0
+  webcam:
+    deviceNameSetInEditor: Logitech HD Webcam C615
+    turnOffWebCam: 0
+    renderTextureLayer: 30
