@@ -148,7 +148,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444867813}
-  m_Mesh: {fileID: 679215336}
+  m_Mesh: {fileID: 547477557}
 --- !u!23 &444867815
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -167,7 +167,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1434278304}
+  - {fileID: 1146228177}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -200,6 +200,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StatusFilter: 2
+  OnTargetFound:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTargetLost:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &444867817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,6 +227,7 @@ MonoBehaviour:
   mImageTargetType: 0
   mWidth: 0.06985
   mHeight: 0.12065
+  mRuntimeTexture: {fileID: 0}
 --- !u!4 &444867818
 Transform:
   m_ObjectHideFlags: 0
@@ -235,13 +243,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!43 &679215336
+--- !u!43 &547477557
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ImageTargetMesh17694
+  m_Name: ImageTargetMesh18344
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -398,7 +406,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!21 &1434278304
+--- !u!21 &1146228177
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -407,7 +415,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'AstronautMaterial
 
-    17702'
+    18352'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -641,6 +649,7 @@ GameObject:
   - component: {fileID: 2051140299}
   - component: {fileID: 2051140298}
   - component: {fileID: 2051140297}
+  - component: {fileID: 2051140300}
   m_Layer: 0
   m_Name: GroundPlane
   m_TagString: Untagged
@@ -724,3 +733,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051140295}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2051140300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051140295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a6e73c3b9feea4a896d76746b3ca12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 2039624962}
