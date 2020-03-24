@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class DragHandler : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler, IPointerDownHandler
+public class DragHandler : MonoBehaviour, IDragHandler, IPointerDownHandler
 {
 
     [SerializeField]
@@ -13,14 +13,6 @@ public class DragHandler : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     [SerializeField]
     private Canvas canvas;
 
-    [SerializeField]
-    private Image backgroundImg;
-    private Color backgroundColor;
-
-    private void Awake()
-    {
-        backgroundColor = backgroundImg.color;
-    }
 
     /*
     public void OnDrag(PointerEventData eventData)
@@ -44,18 +36,7 @@ public class DragHandler : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
         dragRectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 
-    public void OnBeginDrag(PointerEventData eventData)
-    {
-        backgroundColor.a = 0.4f;
-        backgroundImg.color = backgroundColor;
-    }
-
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        backgroundColor.a = 1f;
-        backgroundImg.color = backgroundColor;
-    }
-
+   
     public void OnPointerDown(PointerEventData eventData)
     {
         dragRectTransform.SetAsLastSibling();
