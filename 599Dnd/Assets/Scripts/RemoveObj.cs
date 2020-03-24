@@ -39,5 +39,10 @@ public class RemoveObj : MonoBehaviour
             Destroy(hit.collider.gameObject); // Destroy what we hit
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Destroy(this.gameObject);
+    }
 }
 
