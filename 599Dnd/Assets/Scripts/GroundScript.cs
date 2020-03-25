@@ -34,14 +34,16 @@ public class GroundScript : MonoBehaviour
 
     private void PlaceMonster(RaycastHit hit)
     {
-
-         //Vector3 mousePos = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0f);
-          //GameObject monster = Instantiate(GameManager.Instance.Clickedbtn.Item, transform.position, Quaternion.identity);
-                GameObject monster = (GameObject)Instantiate(GameManager.Instance.Clickedbtn.Item, hit.point, transform.rotation);
-                monster.AddComponent<RemoveObj>();
-                monster.AddComponent<MeshCollider>();
-                monster.transform.Rotate(new Vector3(0, 0, 0));
-               //monster.transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);
-                monster.transform.SetParent(transform);
+      GameObject monster = (GameObject)Instantiate(GameManager.Instance.Clickedbtn.Item, hit.point, transform.rotation);
+      monster.AddComponent<RemoveObj>();
+        //monster.AddComponent<MeshCollider>();
+        //var col = monster.AddComponent<BoxCollider>();
+        //col.size = new Vector3(2f, 3f, 2);
+      if (monster.name == "axe(Clone)" || monster.name == "dark_sword(Clone)" || monster.name == "skull_axe(Clone)")
+          monster.transform.Rotate(new Vector3(90f, 90f, 90f));
+        
+      monster.transform.Rotate(new Vector3(0, 0, 0));
+      //monster.transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);
+      monster.transform.SetParent(transform);
     }
 }

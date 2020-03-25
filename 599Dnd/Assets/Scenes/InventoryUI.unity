@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.9, y: 0.3}
+  m_AnchoredPosition: {x: -66.5, y: 15.6}
   m_SizeDelta: {x: 100, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &139374043
@@ -178,11 +178,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 18
+    m_FontSize: 40
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 46
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -257,8 +257,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 50, y: 50}
-  m_SizeDelta: {x: 100, y: 20}
+  m_AnchoredPosition: {x: 121.3, y: 22.3}
+  m_SizeDelta: {x: 240, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &241307057
 MonoBehaviour:
@@ -918,8 +918,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -897, y: 386}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -840.6, y: 390.3}
+  m_SizeDelta: {x: 240, y: 45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1340359059 stripped
 GameObject:
@@ -1281,10 +1281,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1135197554}
     m_Modifications:
+    - target: {fileID: 2246591929631109276, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4b61215c56174cb489119b1357a5b77c,
+        type: 3}
+    - target: {fileID: 2246591929646363098, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 172774604c1bee84185a69041576525b,
+        type: 3}
     - target: {fileID: 2246591929656003220, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_Name
-      value: SkullAxe
+      value: Skull Axe
       objectReference: {fileID: 0}
     - target: {fileID: 2246591929656003222, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
@@ -1466,6 +1478,12 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2246591929683169375, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: af91b161f106d9e46b3704f05a3ab63d,
+        type: 3}
     - target: {fileID: 2246591929702088642, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -1499,7 +1517,7 @@ PrefabInstance:
     - target: {fileID: 2246591929702088643, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_Name
-      value: HandCart
+      value: Hand Cart
       objectReference: {fileID: 0}
     - target: {fileID: 2246591929702088645, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
@@ -1624,8 +1642,20 @@ PrefabInstance:
     - target: {fileID: 2246591929756692511, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_Name
-      value: OakTree
+      value: Oak Tree
       objectReference: {fileID: 0}
+    - target: {fileID: 2246591929868887682, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2da13ce79e641fd469529b50b281f16e,
+        type: 3}
+    - target: {fileID: 2246591929943098432, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9af44cafdf6786242b2ef439729a78a8,
+        type: 3}
     - target: {fileID: 2246591929975078250, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_Name
@@ -1671,6 +1701,11 @@ PrefabInstance:
       propertyPath: m_Colors.m_HighlightedColor.a
       value: 0.5176471
       objectReference: {fileID: 0}
+    - target: {fileID: 2246591929975078252, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2246591929975078253, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -1701,6 +1736,22 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2246591929975078255, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_FillCenter
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246591929975078255, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246591929997640516, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 587503b6015abc741ad5147fff8f4a06,
+        type: 3}
     - target: {fileID: 2246591930019976656, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1774,7 +1825,7 @@ PrefabInstance:
     - target: {fileID: 2246591930019976670, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_Name
-      value: IronSword
+      value: Iron Sword
       objectReference: {fileID: 0}
     - target: {fileID: 2246591930087154937, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
@@ -1851,6 +1902,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: House
       objectReference: {fileID: 0}
+    - target: {fileID: 2246591930121896619, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 844a1050d03ba5046bfb86af34a81e47,
+        type: 3}
     - target: {fileID: 2246591930174081225, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1924,7 +1981,7 @@ PrefabInstance:
     - target: {fileID: 2246591930174081239, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_Name
-      value: TreeRoot
+      value: Tree Root
       objectReference: {fileID: 0}
     - target: {fileID: 2246591930179186148, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
@@ -1959,7 +2016,7 @@ PrefabInstance:
     - target: {fileID: 2246591930179186149, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_Name
-      value: FirePit
+      value: Fire Pit
       objectReference: {fileID: 0}
     - target: {fileID: 2246591930179186151, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
@@ -2074,7 +2131,7 @@ PrefabInstance:
     - target: {fileID: 2246591930212590278, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_Name
-      value: IceSword
+      value: Ice Sword
       objectReference: {fileID: 0}
     - target: {fileID: 2246591930319161308, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
@@ -2109,7 +2166,7 @@ PrefabInstance:
     - target: {fileID: 2246591930319161309, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_Name
-      value: WoodLog
+      value: Wood Log
       objectReference: {fileID: 0}
     - target: {fileID: 2246591930319161311, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
@@ -2151,10 +2208,16 @@ PrefabInstance:
       propertyPath: m_Colors.m_HighlightedColor.a
       value: 0.5176471
       objectReference: {fileID: 0}
+    - target: {fileID: 2246591930343959126, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 587503b6015abc741ad5147fff8f4a06,
+        type: 3}
     - target: {fileID: 2246591930349457000, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_Name
-      value: CutOak
+      value: Cut Oak
       objectReference: {fileID: 0}
     - target: {fileID: 2246591930349457002, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
@@ -2301,6 +2364,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone
       objectReference: {fileID: 0}
+    - target: {fileID: 2246591930405305578, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 95052c6b62fb3de4695beaa99f842ac2,
+        type: 3}
+    - target: {fileID: 2246591930411283367, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 90e99a7fde056a4418b9fe16084adb5c,
+        type: 3}
     - target: {fileID: 2246591930451636360, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -2376,6 +2451,42 @@ PrefabInstance:
       propertyPath: m_Colors.m_HighlightedColor.a
       value: 0.5176471
       objectReference: {fileID: 0}
+    - target: {fileID: 2246591930461570880, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ce2a8ab7da781cb4a9e989635b4c78aa,
+        type: 3}
+    - target: {fileID: 2246591930490126951, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c11fa297dd331de418654209c490f7e6,
+        type: 3}
+    - target: {fileID: 2246591930581636525, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 66cbeeaa3bcc387448cdae04330e032c,
+        type: 3}
+    - target: {fileID: 2246591930613428782, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4461c87bad5222349b14c22b26d43b95,
+        type: 3}
+    - target: {fileID: 2246591930646310779, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8f28955d92038974a9b04aafaeea79b0,
+        type: 3}
+    - target: {fileID: 2246591930706013023, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c11fa297dd331de418654209c490f7e6,
+        type: 3}
     - target: {fileID: 2246591930754066498, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_Name
@@ -2601,6 +2712,30 @@ PrefabInstance:
       propertyPath: m_Colors.m_HighlightedColor.a
       value: 0.5176471
       objectReference: {fileID: 0}
+    - target: {fileID: 2246591930859926851, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6a08ec4b334ea1c46b8171679417a74f,
+        type: 3}
+    - target: {fileID: 2246591930861332212, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0e1ccb64303778e4081913a6d9cca677,
+        type: 3}
+    - target: {fileID: 2246591930927127682, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c8303e833b0ef184e99c1bc8940fff84,
+        type: 3}
+    - target: {fileID: 2246591931020847066, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 536a142296449de469fea8dbafa97dd7,
+        type: 3}
     - target: {fileID: 2246591931030682604, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -2749,7 +2884,7 @@ PrefabInstance:
     - target: {fileID: 2246591931041570182, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_Name
-      value: CubeCrate
+      value: Crate
       objectReference: {fileID: 0}
     - target: {fileID: 2246591931062794306, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
@@ -2784,7 +2919,7 @@ PrefabInstance:
     - target: {fileID: 2246591931062794307, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_Name
-      value: DarkSword
+      value: Dark Sword
       objectReference: {fileID: 0}
     - target: {fileID: 2246591931062794309, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
@@ -2826,6 +2961,12 @@ PrefabInstance:
       propertyPath: m_Colors.m_HighlightedColor.a
       value: 0.5176471
       objectReference: {fileID: 0}
+    - target: {fileID: 2246591931252641249, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5ee4b3ec9187e004b8b3d72157d00ad3,
+        type: 3}
     - target: {fileID: 2246591931292810728, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2901,6 +3042,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bench
       objectReference: {fileID: 0}
+    - target: {fileID: 2246591931296156734, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 93dbc8f96dc6c00418ba8f1a8e8992e4,
+        type: 3}
     - target: {fileID: 2246591931332553345, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -3126,6 +3273,12 @@ PrefabInstance:
       propertyPath: m_Colors.m_HighlightedColor.a
       value: 0.5176471
       objectReference: {fileID: 0}
+    - target: {fileID: 2246591931621329010, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a4f9f6e05920ee34db7d4fb2be895ddc,
+        type: 3}
     - target: {fileID: 2246591931736107746, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -3159,7 +3312,7 @@ PrefabInstance:
     - target: {fileID: 2246591931736107747, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
       propertyPath: m_Name
-      value: PineTree
+      value: Pine Tree
       objectReference: {fileID: 0}
     - target: {fileID: 2246591931736107749, guid: efa25fa7c7eb2734f8a7ac0dd35d4a8d,
         type: 3}
