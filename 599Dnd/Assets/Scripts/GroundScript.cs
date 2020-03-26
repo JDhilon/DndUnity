@@ -9,6 +9,7 @@ public class GroundScript : MonoBehaviour
     Ray myRay;      // initializing the ray
     RaycastHit hit; // initializing the raycasthit
 
+
     private void OnMouseOver()
     {
         if (Input.GetMouseButtonDown(0) && GameManager.Instance.Clickedbtn != null)
@@ -16,20 +17,9 @@ public class GroundScript : MonoBehaviour
             myRay = camera.ScreenPointToRay(Input.mousePosition);
 
             if (Physics.Raycast(myRay, out hit))
-            {
                 if (hit.collider != null)
-                {
                     PlaceMonster(hit);
-                }
-            }
         }
-
-        /*
-        if (Input.GetMouseButtonDown(0))
-        {
-            PlaceMonster(hit);
-        }
-        **/
     }
 
     private void PlaceMonster(RaycastHit hit)
@@ -41,9 +31,11 @@ public class GroundScript : MonoBehaviour
         //col.size = new Vector3(2f, 3f, 2);
       if (monster.name == "axe(Clone)" || monster.name == "dark_sword(Clone)" || monster.name == "skull_axe(Clone)")
           monster.transform.Rotate(new Vector3(90f, 90f, 90f));
-        
+       
       monster.transform.Rotate(new Vector3(0, 0, 0));
       //monster.transform.localScale = new Vector3(0.02f, 0.02f, 0.02f);
       monster.transform.SetParent(transform);
+    //  objArray.Add(monster);
+        //Debug.Log(objArray);
     }
 }
