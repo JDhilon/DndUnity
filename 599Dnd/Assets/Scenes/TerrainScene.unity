@@ -746,4 +746,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 2039624962}
-  objArray: []

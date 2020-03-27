@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="IT9" size="0.100000 0.100000" />
-    <ImageTarget name="IT8" size="0.050000 0.050000" />
-    <ImageTarget name="IT7" size="0.050000 0.050000" />
-    <ImageTarget name="IT6" size="0.050000 0.050000" />
-    <ImageTarget name="IT5" size="0.050000 0.050000" />
-    <ImageTarget name="IT4" size="0.050000 0.050000" />
-    <ImageTarget name="IT3" size="0.050000 0.050000" />
-    <ImageTarget name="IT2" size="0.050000 0.050000" />
-    <ImageTarget name="IT1" size="0.050000 0.050000" />
-    <ImageTarget name="test3" size="0.100000 0.061644" />
-    <ImageTarget name="test2" size="0.300000 0.196265" />
-    <ImageTarget name="target6" size="0.400000 0.405307" />
-    <ImageTarget name="target5" size="0.100000 0.098844" />
-    <ImageTarget name="target4" size="0.100000 0.095584" />
-    <ImageTarget name="test" size="0.100000 0.100000" />
-    <ImageTarget name="Target3" size="0.100000 0.099758" />
-    <ImageTarget name="Target2" size="0.100000 0.098361" />
-    <ImageTarget name="Target1" size="0.025000 0.024702" />
+    <ImageTarget name="VIPER" size="0.020000 0.020000" />
+    <ImageTarget name="HARPIE" size="0.020000 0.020000" />
+    <ImageTarget name="LIZARD" size="0.020000 0.020000" />
+    <ImageTarget name="SKELETON" size="0.020000 0.020000" />
+    <ImageTarget name="WOLF" size="0.020000 0.020000" />
+    <ImageTarget name="RAT" size="0.020000 0.020000" />
+    <ImageTarget name="DEMON" size="0.020000 0.020000" />
+    <ImageTarget name="NewIT7" size="0.020000 0.020000" />
+    <ImageTarget name="NewIT6" size="0.020000 0.020000" />
+    <ImageTarget name="NewIT5" size="0.020000 0.020000" />
+    <ImageTarget name="NewIT4" size="0.020000 0.020000" />
+    <ImageTarget name="NewIT3" size="0.020000 0.020000" />
+    <ImageTarget name="NewIT2" size="0.020000 0.020000" />
+    <ImageTarget name="NewIT1" size="0.020000 0.020000" />
+    <ImageTarget name="OLDIT5" size="0.050000 0.050000" />
+    <ImageTarget name="OLDIT4" size="0.050000 0.050000" />
+    <ImageTarget name="OLDIT3" size="0.050000 0.050000" />
+    <ImageTarget name="OLDIT7" size="0.050000 0.050000" />
+    <ImageTarget name="OLDIT2" size="0.050000 0.050000" />
+    <ImageTarget name="OLDIT6" size="0.050000 0.050000" />
+    <ImageTarget name="OLDIT8" size="0.050000 0.050000" />
+    <ImageTarget name="OLDIT9" size="0.100000 0.100000" />
+    <ImageTarget name="OLDIT1" size="0.050000 0.050000" />
+    <ImageTarget name="NULL8" size="0.100000 0.061644" />
   </Tracking>
 </QCARConfig>
