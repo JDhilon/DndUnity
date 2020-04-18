@@ -361,6 +361,7 @@ GameObject:
   - component: {fileID: 207177744}
   - component: {fileID: 207177743}
   - component: {fileID: 207177742}
+  - component: {fileID: 207177745}
   m_Layer: 5
   m_Name: Scrollbar Horizontal
   m_TagString: Untagged
@@ -1154,7 +1155,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1247939327}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1364240705}
+        m_MethodName: SnowSelection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &465566732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2239,7 +2251,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1351053781}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1364240705}
+        m_MethodName: ForestSelection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &995175352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2890,6 +2913,7 @@ GameObject:
   - component: {fileID: 1364240702}
   - component: {fileID: 1364240704}
   - component: {fileID: 1364240703}
+  - component: {fileID: 1364240705}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -2962,6 +2986,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 2
   m_VerticalFit: 0
+--- !u!114 &1364240705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364240701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb2b29a1f869194da9a91572fee1f54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1495936219
 GameObject:
   m_ObjectHideFlags: 0
@@ -3250,7 +3286,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1175469924}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1364240705}
+        m_MethodName: SandSelection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1751311098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3300,6 +3347,7 @@ GameObject:
   - component: {fileID: 1780012647}
   - component: {fileID: 1780012646}
   - component: {fileID: 1780012649}
+  - component: {fileID: 1780012650}
   m_Layer: 5
   m_Name: Scroll View
   m_TagString: Untagged
@@ -3407,6 +3455,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollBar: {fileID: 207177740}
+--- !u!114 &1780012650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780012644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb2b29a1f869194da9a91572fee1f54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1828848305
 GameObject:
   m_ObjectHideFlags: 0

@@ -22,6 +22,21 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("SelectionMenu");
     }
 
+    public void ForestSelection()
+    {
+        SceneManager.LoadScene("ForestScene");
+    }
+
+    public void SnowSelection()
+    {
+        SceneManager.LoadScene("SnowScene");
+    }
+
+    public void SandSelection()
+    {
+        SceneManager.LoadScene("SandScene");
+    }
+
     public void QuitGame()
     {
         Application.Quit();   
